@@ -1,8 +1,8 @@
-main {
+main{
   margin: 25% 20% 25% 20%;
-  padding-left: 10%;
-  padding-right: 5%;
+  
 
+background-color: whitesmoke;
   width: 60%;
   height: 100vh;
   border: 1px solid red;
@@ -11,46 +11,105 @@ main {
 }
 .main-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
+ 
+  padding: 10% 5% 0% 10%;
+
+
+  
 }
 .registration-container {
-  width: 50%;
+  width: 40%;
   height: 75vh;
 
-  border: solid 1px;
+ 
 }
 #input-container {
-  margin: 20% 10% 0 10%;
-  width: 90%;
+  margin: 5%;
+  width: 95%;
   height: 30vh;
-  border: solid 1px;
+  background-color: white;
   border-radius: 10px;
+  padding: 10%;
+  box-shadow:grey 1px 2px 2px 1px  ;
+  
 }
 .facebook-motto {
-  position: relative;
-  top: 100px;
 
-  width: 60%;
+
+ 
+  
+  
+  width: 50%;
   height: 75vh;
 
   font-size: 28px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+#motto {
+    text-align: left;
+    margin-top: 10px;
+    
+}
+
 h1 {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family ;
   font-size: 68px;
+  color: royalblue;
 }
 footer {
-  width: 100%;
+    padding-left: 150px;
+  width: 90%;
   height: 25vh;
   border: solid blue 1px;
+  background-color: white;
 }
 input {
-  width: 90%;
+  width: 100%;
   height: 70px;
   margin: 1% 0 0 0;
   border-radius: 10px;
+  background-color: white;
+}
+a {
+    text-decoration: none;
+}
+.inputs:nth-of-type(1) {
+    border:1px solid royalblue;
+   
+    font-size: 24px;
+    
+}
+.inputs:nth-of-type(3) {
+    background-color: royalblue;
+    color: white;
+    font-size: 24px;
+
+   
+   
+}
+.inputs:nth-of-type(4) {
+    background-color:lime;
+    width: 50%;
+    text-align: center;
+    margin-left: 110px;
+    color: white;
+    
+}
+.inputs:nth-of-type(2) {
+    border:3px solid whitesmoke;
+   
+    font-size: 24px;
+}
+input:active {
+    border: red 1px solid ;
+}
+p {
+    width: 100%;
+    height: 40px;
+    
+    text-align:center;
+    padding:center;
+    
+    
 }
