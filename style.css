@@ -1,30 +1,19 @@
-body {
-    
-}
+
 main{
   margin: 25% 20% 25% 20%;
-  
-
-background-color: whitesmoke;
+  background-color: whitesmoke;
   width: 60%;
   height: 100vh;
-  
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .main-container {
   display: flex;
- 
   padding: 10% 5% 0% 10%;
-
-
-  
 }
 .registration-container {
   width: 40%;
   height: 75vh;
-
- 
 }
 #input-container {
   margin: 5%;
@@ -37,14 +26,8 @@ background-color: whitesmoke;
   
 }
 .facebook-motto {
-
-
- 
-  
-  
   width: 50%;
   height: 75vh;
-
   font-size: 28px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -54,9 +37,7 @@ background-color: whitesmoke;
     margin-top: 10px;
     
 }
-
 h1 {
-  font-family ;
   font-size: 68px;
   color: royalblue;
 }
@@ -66,13 +47,6 @@ footer {
   width: 80%;
   height: 25vh;
   box-shadow: 1px 1px 1px 1px whitesmoke ;
- 
-  
-
-  
-  
-
-
   background-color: white;
 }
  ul {
@@ -99,7 +73,6 @@ a {
     border:1px solid grey ;
    opacity: .3;
     font-size: 24px;
-    
 }
 .inputs:nth-of-type(3) {
     background-color: royalblue;
@@ -107,10 +80,6 @@ a {
     color: white;
     font-size: 24px;
     width: 101%;
-    
-
-   
-   
 }
 .inputs:nth-of-type(4) {
     border: 0px white;
@@ -128,28 +97,20 @@ a {
     margin-left: 110px;
     color: white;
     
-    
 }
 .inputs:nth-of-type(2) {
     border:1px solid grey;
     opacity: .3;
-   
-   
     font-size: 24px;
 }
 input:focus {
     outline-color : blue !important;
-
-      
 }
 p {
     width: 100%;
     height: 40px;
     margin: auto;
     text-align:center;
-    
-    
-    
 }
 .link {
     margin-left: 100px;
