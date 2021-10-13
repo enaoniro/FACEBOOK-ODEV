@@ -1,7 +1,11 @@
 
+
+body {
+    background-color: black;
+}
 main{
   margin: 25% 20% 25% 20%;
-  background-color: whitesmoke;
+  background-color: rgba(245, 245, 245, 0.966);
   width: 60%;
   height: 100vh;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -46,8 +50,9 @@ footer {
   padding :20px 150px 0px 130px ;
   width: 80%;
   height: 25vh;
-  box-shadow: 1px 1px 1px 1px whitesmoke ;
+  box-shadow: 1px 0px 1px 0px whitesmoke ;
   background-color: white;
+  border: 1px white solid;
 }
  ul {
     text-transform: capitalize;
@@ -57,7 +62,11 @@ footer {
     flex-direction: row;
     justify-content: space-evenly;
     opacity: .6;
-
+    
+}
+ul li {
+    position: relative;
+    left: -110px;
 }
 input {
   width: 100%;
