@@ -61,15 +61,29 @@ h1 {
   color: royalblue;
 }
 footer {
+  
   padding :20px 150px 0px 130px ;
   width: 80%;
   height: 25vh;
-  border: tomato 1px solid;
+  box-shadow: 1px 1px 1px 1px whitesmoke ;
+ 
+  
+
   
   
 
 
   background-color: white;
+}
+ ul {
+    text-transform: capitalize;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-evenly;
+    opacity: .6;
+
 }
 input {
   width: 100%;
